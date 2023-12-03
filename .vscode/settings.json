@@ -1,0 +1,11 @@
+{
+    "sqltools.useNodeRuntime": true,
+    "sqltools.connections": [
+        {
+            "previewLimit": 50,
+            "driver": "SQLite",
+            "database": "${workspaceFolder:Angular and Dotnet}/api/Data/AngularAndDotnet.db",
+            "name": "DatingApp"
+        }
+    ]
+}
