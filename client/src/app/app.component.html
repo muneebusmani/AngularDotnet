@@ -1,4 +1,4 @@
-<h1>{{ title }}</h1>
+<app-nav></app-nav>
 <table>
   <thead>
     <tr>
@@ -11,11 +11,11 @@
   </thead>
   <tbody>
     <tr *ngFor="let user of users">
-      <td>{{user.id}}</td>
-      <td>{{user.fullName}}</td>
-      <td>{{user.username}}</td>
-      <td>{{user.email}}</td>
-      <td>{{user.phone}}</td>
+      <td>{{ user.id }}</td>
+      <td>{{ user.fullName }}</td>
+      <td>{{ user.username }}</td>
+      <td>{{ user.email }}</td>
+      <td>{{ user.phone }}</td>
     </tr>
   </tbody>
 </table>
